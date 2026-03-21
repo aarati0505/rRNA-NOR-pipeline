@@ -1,0 +1,59 @@
+# ── Real data — never commit these ──────────────────────────────────────────
+*.fasta
+*.fa
+*.fas
+*.fastq
+
+# Except the demo file which is synthetic
+!demo/demo_sequences.fasta
+
+# Result files (contain unpublished findings)
+pipeline_output/
+analysis_141bp_output/
+*_output/
+*.xml
+step2_blast_results.xml
+
+# CSV results (contain unpublished findings)
+step11_haplotype_similarity.csv
+step12_summary_report.csv
+step2_blast_summary.csv
+step4_regulatory_motifs.csv
+step5_summary.txt
+step1_consensus.fasta
+
+# Downloaded reference sequences
+Arabidopsis_thaliana.fasta
+Solanum_lycopersicum_SL4.0.fasta
+Oryza_sativa.fasta
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
