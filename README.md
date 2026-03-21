@@ -227,11 +227,7 @@ BITS Pilani, Hyderabad Campus.
 
 ---
 
-## License
 
-MIT License — see LICENSE file for details.
-
----
 
 ## Author
 
